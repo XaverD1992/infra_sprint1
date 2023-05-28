@@ -1,0 +1,5 @@
+IP: 84.201.161.139;
+name_taski: https://xaverd.bounceme.net;
+name_kittygram: https://gordik89.ddns.net;
+login: Vlad2;
+password: e1xdD9901994; 
