@@ -5,14 +5,13 @@ from pathlib import Path
 load_dotenv()
 
 secret_key = os.getenv('SECRET_KEY')
-debug = os.getenv('DEBUG')
 allowed_hosts = os.getenv('ALLOWED_HOSTS').split(',')
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = secret_key
 
-DEBUG = debug
+DEBUG = False
 
 ALLOWED_HOSTS = allowed_hosts
 
