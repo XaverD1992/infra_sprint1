@@ -49,7 +49,7 @@ server {
     }
 
     location /media/ {
-        alias /var/www/kittygram/media/cats/images/;
+        root /var/www/kittygram;
     }    
 
     
